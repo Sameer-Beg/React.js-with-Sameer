@@ -6,8 +6,8 @@ import V4_TerrnoryOperater from './Components/V4_TerrnoryOperater'
 import V5_events from './Components/V5_events'
 import V6_passingArrgument from './Components/V6_passingArrgument'
 import V7_usestate from './Components/V7_usestate'
-
-
+import V8_map from './Components/V8_map'
+import V9_Filter from './Components/V9_Filter'
 const App = () => {
   return (
     <>
@@ -44,10 +44,18 @@ const App = () => {
       </div> */}
 
 
-    <div>
+    {/* <div>
         <V7_usestate/>
-    </div>
+    </div> */}
 
+    {/* <div>
+      <V8_map />
+    </div> */}
+
+
+      <div>
+        <V9_Filter/>
+      </div>
 
     </>
   )
