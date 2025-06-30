@@ -4,6 +4,8 @@ import V2_reusableComponent from './Components/V2_reusableComponent'
 import V3_problem1 from './Components/V3_problem1'
 import V4_TerrnoryOperater from './Components/V4_TerrnoryOperater'
 import V5_events from './Components/V5_events'
+import V6_passingArrgument from './Components/V6_passingArrgument'
+import V7_usestate from './Components/V7_usestate'
 
 
 const App = () => {
@@ -32,8 +34,18 @@ const App = () => {
     </div> */}
 
 
-    <div>
+    {/* <div>
       <V5_events/>
+    </div> */}
+
+
+      {/* <div>
+        <V6_passingArrgument/>
+      </div> */}
+
+
+    <div>
+        <V7_usestate/>
     </div>
 
 
