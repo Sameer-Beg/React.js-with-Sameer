@@ -18,10 +18,10 @@ const App = () => {
     </div> */}
 
 
-    {/* <div>
+    <div>
       <V3_problem1 title="Phone" brand="Aplle" price={100000}/>
       <V3_problem1 title="Lapi" brand="Mac" price={200000}/>
-    </div> */}
+    </div>
 
 
 
