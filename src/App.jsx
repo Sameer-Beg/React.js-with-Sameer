@@ -8,6 +8,12 @@ import V6_passingArrgument from './Components/V6_passingArrgument'
 import V7_usestate from './Components/V7_usestate'
 import V8_map from './Components/V8_map'
 import V9_Filter from './Components/V9_Filter'
+import V10_useEffect from './Components/V10_useEffect'
+import V11useefectmore from './Components/V11useefectmore'
+import Fetch_data_API from './Components/Fetch_data_API'
+import V12_fetch_data_api from './Components/V12_fetch_data_api'
+
+
 const App = () => {
   return (
     <>
@@ -53,10 +59,18 @@ const App = () => {
     </div> */}
 
 
-      <div>
+      {/* <div>
         <V9_Filter/>
-      </div>
+      </div> */}
 
+      {/* <div>
+        <V10_useEffect/>
+      </div> */}
+
+      {/* <div>
+        <V11useefectmore/>
+      </div> */}
+     
     </>
   )
 }
