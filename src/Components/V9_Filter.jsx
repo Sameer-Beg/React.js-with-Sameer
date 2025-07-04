@@ -8,7 +8,7 @@ const V9_Filter = () => {
         {id:3 , title:"Tv", catogery:"Tv" ,  price:5000000}
     ]
     // Filter products by category "machines"
-    const filtereddata = products.filter((data)=>data.catogery == "Tv")
+    const filtereddata = products.filter((data)=>data.catogery == "machines")
 
     // Log filtered data to the console
     console.log(filtereddata)
