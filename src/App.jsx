@@ -10,10 +10,9 @@ import V8_map from './Components/V8_map'
 import V9_Filter from './Components/V9_Filter'
 import V10_useEffect from './Components/V10_useEffect'
 import V11useefectmore from './Components/V11useefectmore'
-import Fetch_data_API from './Components/Fetch_data_API'
-import V12_fetch_data_api from './Components/V12_fetch_data_api'
-
-
+import V12_FetchdataAPI from './Components/V12_FetchdataAPI'
+import V13_Form from './Components/V13_Form'
+import V14_multiple_input_handling from './Components/V14_multiple_input_handling'
 const App = () => {
   return (
     <>
@@ -70,6 +69,21 @@ const App = () => {
       {/* <div>
         <V11useefectmore/>
       </div> */}
+
+      {/* <div>
+        <V12_FetchdataAPI/>
+      </div> */}
+
+      {/* <div>
+        <V13_Form/>
+      </div> */}
+
+      <div>
+        <V14_multiple_input_handling/>
+      </div>
+
+
+      
      
     </>
   )
